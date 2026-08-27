@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Como Criar Conteúdo pelo YouTube</title>
+<style>
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#0b0b0d;color:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+header{position:sticky;top:0;z-index:10;background:rgba(10,10,12,.96);border-bottom:1px solid #29292d}
+nav{max-width:1150px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:16px 22px}
+.logo{font-size:20px;font-weight:800}.logo span{color:#ff3030}
+nav .links{display:flex;gap:22px;font-size:14px}
+nav .links a:hover{color:#ff3030}
+.btn{display:inline-block;background:#ff2525;color:white;padding:12px 20px;border-radius:8px;font-weight:700;border:0}
+.btn.secondary{background:#1d1d21;border:1px solid #3b3b40}
+.hero{max-width:1150px;margin:auto;padding:90px 22px 75px;display:grid;grid-template-columns:1.1fr .9fr;gap:45px;align-items:center}
+.badge{display:inline-block;border:1px solid #ff3030;color:#ff5555;border-radius:30px;padding:7px 13px;font-size:12px;font-weight:700}
+h1{font-size:clamp(42px,6vw,70px);line-height:1.02;margin:20px 0}
+h1 span{color:#ff3030}.hero p{font-size:19px;color:#c4c4c8;max-width:650px}
+.actions{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+.hero-card{height:360px;border-radius:20px;background:radial-gradient(circle at 70% 30%,#ff3030 0,#581316 25%,#17171b 62%,#101013 100%);display:flex;align-items:center;justify-content:center;border:1px solid #34343a;box-shadow:0 20px 60px #000}
+.play{width:125px;height:88px;background:#ff2525;border-radius:22px;display:flex;align-items:center;justify-content:center;font-size:55px;box-shadow:0 0 50px #ff252566}
+section{padding:70px 22px}.wrap{max-width:1150px;margin:auto}
+.section-title{font-size:36px;margin:0 0 8px}.section-sub{color:#a9a9ae;margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+.card{background:#151518;border:1px solid #29292e;border-radius:14px;padding:25px}
+.card:hover{border-color:#ff3030;transform:translateY(-2px);transition:.2s}
+.icon{font-size:32px}.card h3{margin:10px 0 6px}.card p{color:#aaaab0;margin-top:0}
+.guide{display:grid;grid-template-columns:110px 1fr auto;gap:20px;align-items:center;background:#151518;border:1px solid #29292e;border-radius:12px;padding:18px;margin:12px 0}
+.guide-img{height:75px;border-radius:9px;background:linear-gradient(135deg,#ff3030,#17171b);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:12px;text-align:center}
+.steps{counter-reset:step}.step{position:relative;padding:18px 18px 18px 65px;background:#151518;border:1px solid #29292e;border-radius:12px;margin:12px 0}.step:before{counter-increment:step;content:counter(step);position:absolute;left:18px;top:18px;width:32px;height:32px;border-radius:50%;background:#ff2525;display:flex;align-items:center;justify-content:center;font-weight:800}.step h3{margin:0 0 4px}.step p{margin:0;color:#b5b5ba}
+.cta{background:linear-gradient(100deg,#1b1b20,#351012);border:1px solid #542125;border-radius:16px;padding:40px;text-align:center}.cta h2{font-size:32px;margin:0 0 8px}
+.faq{border-bottom:1px solid #29292e;padding:18px 0}.faq h3{margin:0 0 5px}.faq p{margin:0;color:#aaa}
+footer{border-top:1px solid #29292e;background:#080809;padding:45px 22px;color:#999}
+footer .wrap{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
+@media(max-width:800px){nav .links{display:none}.hero{grid-template-columns:1fr}.hero-card{height:260px}.grid{grid-template-columns:1fr}.guide{grid-template-columns:80px 1fr}.guide .btn{grid-column:1/-1}.section-title{font-size:30px}}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<div class="logo">YouTube <span>Conteúdo</span></div>
+<div class="links">
+<a href="#inicio">Início</a><a href="#videos">Vídeos</a><a href="#lives">Lives</a><a href="#conteudo">Conteúdo</a><a href="#crescer">Crescer</a>
+</div>
+<a class="btn" href="#comece">Comece agora</a>
+</nav>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+<div>
+<span class="badge">GUIA PARA CRIADORES</span>
+<h1>Crie conteúdo.<br><span>Publique. Cresça.</span></h1>
+<p>Aprenda de forma simples como criar vídeos, postar no YouTube, fazer lives, criar thumbnails e melhorar seu canal.</p>
+<div class="actions"><a class="btn" href="#videos">Aprender a postar</a><a class="btn secondary" href="#lives">Aprender a fazer live</a></div>
+</div>
+<div class="hero-card"><div class="play">▶</div></div>
+</section>
+
+<section id="conteudo"><div class="wrap">
+<h2 class="section-title">Aprenda tudo sobre YouTube</h2><p class="section-sub">Tutoriais diretos para você começar e evoluir.</p>
+<div class="grid">
+<div class="card"><div class="icon">📤</div><h3>Postar vídeos</h3><p>Aprenda a enviar vídeos, escolher título, descrição, thumbnail e visibilidade.</p><a class="btn" href="#videos">Ver guia</a></div>
+<div class="card"><div class="icon">🔴</div><h3>Fazer lives</h3><p>Configure sua transmissão e aprenda o básico para entrar ao vivo.</p><a class="btn" href="#lives">Ver guia</a></div>
+<div class="card"><div class="icon">🎬</div><h3>Criar conteúdo</h3><p>Encontre ideias, grave, edite e transforme suas ideias em vídeos.</p><a class="btn" href="#criacao">Ver guia</a></div>
+<div class="card"><div class="icon">🖼️</div><h3>Thumbnails</h3><p>Crie imagens simples, claras e chamativas para seus vídeos.</p><a class="btn" href="#thumbs">Ver guia</a></div>
+<div class="card"><div class="icon">📈</div><h3>Crescer no YouTube</h3><p>Aprenda sobre títulos, retenção, consistência e análise do canal.</p><a class="btn" href="#crescer">Ver guia</a></div>
+<div class="card"><div class="icon">💰</div><h3>Monetização</h3><p>Entenda as possibilidades de ganhar dinheiro com conteúdo.</p><a class="btn" href="#monetizacao">Ver guia</a></div>
+</div>
+</div></section>
+
+<section id="videos"><div class="wrap">
+<h2 class="section-title">📤 Como postar um vídeo no YouTube</h2><p class="section-sub">Passo a passo para publicar seu primeiro vídeo.</p>
+<div class="steps">
+<div class="step"><h3>Entre no YouTube Studio</h3><p>Acesse o YouTube Studio com sua conta.</p></div>
+<div class="step"><h3>Clique em Criar</h3><p>Escolha a opção para enviar um novo vídeo.</p></div>
+<div class="step"><h3>Envie o arquivo</h3><p>Selecione o vídeo salvo no seu computador ou celular.</p></div>
+<div class="step"><h3>Preencha as informações</h3><p>Adicione título, descrição, thumbnail e demais configurações.</p></div>
+<div class="step"><h3>Escolha a visibilidade</h3><p>Defina se o vídeo será privado, não listado ou público.</p></div>
+<div class="step"><h3>Publique</h3><p>Confira tudo e publique o vídeo. Pronto!</p></div>
+</div></div></section>
+
+<section id="lives"><div class="wrap">
+<h2 class="section-title">🔴 Como fazer uma live</h2><p class="section-sub">Um guia simples para começar a transmitir.</p>
+<div class="steps">
+<div class="step"><h3>Abra o YouTube Studio</h3><p>Entre na sua conta e abra as ferramentas de transmissão.</p></div>
+<div class="step"><h3>Crie a transmissão</h3><p>Escolha o título, descrição, thumbnail, categoria e visibilidade.</p></div>
+<div class="step"><h3>Prepare o OBS Studio</h3><p>Adicione captura de jogo, tela, câmera, microfone e áudio, se precisar.</p></div>
+<div class="step"><h3>Faça um teste</h3><p>Verifique microfone, câmera, imagem, áudio e conexão antes de começar.</p></div>
+<div class="step"><h3>Entre ao vivo</h3><p>Quando estiver tudo pronto, inicie a transmissão e acompanhe o chat.</p></div>
+</div></div></section>
+
+<section id="criacao"><div class="wrap">
+<h2 class="section-title">🎬 Como criar conteúdo</h2>
+<div class="grid">
+<div class="card"><h3>1. Escolha um tema</h3><p>Jogos, tecnologia, tutoriais, dicas, entretenimento ou outro assunto que você goste.</p></div>
+<div class="card"><h3>2. Crie uma ideia</h3><p>Pense em uma pergunta, desafio ou problema que seu vídeo pode resolver.</p></div>
+<div class="card"><h3>3. Grave e edite</h3><p>Comece com o equipamento que você tem e melhore aos poucos.</p></div>
+</div></div></section>
+
+<section id="thumbs"><div class="wrap">
+<h2 class="section-title">🖼️ Como criar thumbnails</h2>
+<div class="grid">
+<div class="card"><h3>Seja claro</h3><p>Mostre rapidamente qual é o assunto do vídeo.</p></div>
+<div class="card"><h3>Poucas palavras</h3><p>Use frases curtas e fáceis de ler.</p></div>
+<div class="card"><h3>Destaque a ideia</h3><p>Use uma imagem forte e um elemento principal bem visível.</p></div>
+</div></div></section>
+
+<section id="crescer"><div class="wrap">
+<h2 class="section-title">📈 Como crescer no YouTube</h2>
+<div class="grid">
+<div class="card"><h3>Conteúdo</h3><p>Crie vídeos que tenham utilidade ou entretenimento para o público.</p></div>
+<div class="card"><h3>Título + thumbnail</h3><p>Apresente de forma clara o motivo para a pessoa clicar.</p></div>
+<div class="card"><h3>Consistência</h3><p>Monte uma rotina que você consiga manter sem se sobrecarregar.</p></div>
+<div class="card"><h3>Analise seus vídeos</h3><p>Use o YouTube Studio para entender o que funciona melhor.</p></div>
+<div class="card"><h3>Melhore a retenção</h3><p>Evite enrolação e entregue rapidamente o que o título prometeu.</p></div>
+<div class="card"><h3>Teste</h3><p>Experimente formatos diferentes e aprenda com os resultados.</p></div>
+</div></div></section>
+
+<section id="monetizacao"><div class="wrap">
+<h2 class="section-title">💰 Monetização</h2>
+<p class="section-sub">Existem diferentes formas de monetizar um canal, mas os requisitos e recursos podem mudar.</p>
+<div class="card"><p>Entre as possibilidades estão anúncios, recursos de apoio dos espectadores, assinaturas, parcerias, patrocínios e produtos ou serviços. Confira sempre os requisitos atuais diretamente no YouTube Studio e nas páginas oficiais do YouTube.</p></div>
+</div></section>
+
+<section id="comece"><div class="wrap"><div class="cta">
+<h2>🚀 Comece hoje</h2><p>Você não precisa saber tudo para começar. Aprenda, publique, analise e melhore a cada vídeo.</p>
+<div class="actions" style="justify-content:center"><a class="btn" href="#videos">Postar meu primeiro vídeo</a><a class="btn secondary" href="#lives">Fazer minha primeira live</a></div>
+</div></div></section>
+
+<section><div class="wrap">
+<h2 class="section-title">❓ Perguntas frequentes</h2>
+<div class="faq"><h3>Preciso de um computador caro?</h3><p>Não. Você pode começar com os equipamentos que já possui.</p></div>
+<div class="faq"><h3>Preciso ter muitos inscritos?</h3><p>Não. Você pode começar a criar e publicar conteúdo desde o início.</p></div>
+<div class="faq"><h3>Preciso aparecer nos vídeos?</h3><p>Não. Existem muitos formatos que não exigem câmera.</p></div>
+<div class="faq"><h3>Quanto tempo demora para crescer?</h3><p>Não existe um prazo garantido. Cada canal evolui de uma forma.</p></div>
+</div></section>
+</main>
+
+<footer><div class="wrap"><div><div class="logo">YouTube <span>Conteúdo</span></div><p>Guia para quem quer aprender a criar conteúdo, postar vídeos e fazer lives.</p></div><div><b>Navegação</b><p>Início · Vídeos · Lives · Conteúdo · Crescer</p></div><div><b>© 2026</b><p>Site educativo para criadores.</p></div></div></footer>
+</body>
+</html>
